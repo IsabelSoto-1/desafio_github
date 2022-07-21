@@ -1,0 +1,128 @@
+
+* {
+    color: rgb(68, 66, 66);
+    margin: 0%;
+    padding: 0em;
+    
+   }
+   
+   
+    img {
+       max-width: 40%;
+       max-height: 40%;
+       padding: 10px; 
+       margin: 10px;
+       float: right;
+    }
+   
+    .tamaño1{
+        color: rgb(68, 66, 66);
+        
+        font-size: x-large;
+    }
+    .tamaño2{
+        color: black;
+        font-size: x-large;
+    }
+    .text{
+        color: rgb(68, 66, 66);
+        font-size: small;
+
+    }
+    .h{
+        color: rgb(68, 66, 66);
+        font-size: large;
+    
+    }
+
+   .box {
+       width: 300px;
+       height: 300px;
+       border: 1px solid rgb(95, 93, 93);
+       text-align: center;
+       display: inline-block;
+       margin: 50px;
+       border-radius: 10px;
+         
+   }
+   .box1 {
+    position: fixed;
+       top: 190px;
+       bottom: 0px;
+       right: 0px;
+       left: 0px;
+       height: 30%;
+       font-size: small;
+       border-top-color: aqua;
+       border-top-width: 5px
+    
+
+   }
+   
+   .box2 {
+    position: fixed;
+       top: 100px;
+       bottom: 0px;
+       right: 0px;
+       left: 330px;
+       height: 30%;
+       font-size: small;
+       border-top-color: darkred;
+       border-top-width: 5px
+   }
+   
+   .box3 {
+    position: fixed;
+    top: 320px;
+    bottom: 0px;
+    right: 0px;
+    left: 330px;
+    height: 30%;
+    font-size: small;
+    border-top-color: rgb(207, 204, 6);
+    border-top-width: 5px
+}
+   .box4 {
+    position: fixed;
+       top: 190px;
+       bottom: 0px;
+       right: 0px;
+       left: 650px;
+       height: 30%;
+       font-size: small;
+       border-top-color: rgb(31, 121, 173);
+       border-top-width: 5px
+   }
+   .contenedor{
+    display: inline-block;
+       width: 300px;
+       height: 500px;
+       text-align: center;
+       position: relative;
+       left: 400px;
+  }
+ 
+  @media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    .tamaño1, .tamaño2, .text, .h , .contenedor, .box, .box1, .box2, 
+    .box3, .box4
+    {
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width: 800px) {
+    /* For tablets: */
+    .tamaño1, .tamaño2, .text, .h , .contenedor, .box, .box1, .box2, 
+    .box3, .box4
+    {
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width: 1250px) {
+    /* For desktop: */
+    .tamaño1, .tamaño2, .text, .h , .contenedor, .box, .box1, .box2, 
+    .box3, .box4
+    {
+      width: 100%;
+    }
+  }
